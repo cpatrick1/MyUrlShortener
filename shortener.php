@@ -1,7 +1,7 @@
 <?php
 
 require_once('utils.php');
-require_once('connection.php');
+require_once('connection-prod.php');
 
 $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
